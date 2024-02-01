@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* started TopNav  */
+nav
+{
+  position: relative;
+  background-color: red;
+
+}
+nav>div
+{
+    max-width: 1200px;
+    height: 110px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+nav>div ul
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-transform: uppercase;
+    /* margin-right: 120px; */
+    
+}
+nav>div ul li a
+{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    cursor: pointer;
+    transition: .5s;
+}
+nav>div ul li:hover a
+{
+    color: #ec1d25;
+
+}
+
+nav>div div
+{
+    display: flex;
+    gap: 1rem;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+}
+nav>div div i
+{
+    color: #fff;
+    font-size: 1.2rem;
+    transition: .5s;
+    cursor: pointer;
+}
+nav>div div i:hover
+{
+    color: #ec1d25;
+
+}
+nav>div div #menu
+{
+    font-size: 2.2rem;    
+    margin-left: 14px;
+}
+
+
+
+
+
+
+/* started left-menu  */
+.left-menu
+{
+    max-width: 350px;
+    height: auto;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 3%;
+    position: relative;
+}
+.left-menu i
+{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 3rem;
+}
+.left-menu ul
+{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+.left-menu ul li a
+{
+    color: #fff;
+}
+
+.left-menu button
+{
+    background: #111111;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.1;
+    color: #fff;
+    margin: 2rem 0px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* started slider  */
+.my-slide
+{
+    background-image: url(https://preview.colorlib.com/theme/pato/images/slide1-01.jpg);
+    padding: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}

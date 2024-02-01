@@ -7,26 +7,115 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="javascript.js">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
+
+    <!-- started top=nav  -->
+
     <nav>
-        <img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="">
+        <div>
+            <img src="https://preview.colorlib.com/theme/pato/images/icons/logo.png" alt="">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Reservati</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+
+                    <div>
+                        <i class='bx bx-infinite'></i>
+                        <i class='bx bxl-facebook' ></i>
+                        <i class='bx bxl-twitter' ></i>
+                        <i class='bx bx-menu' id="menu"></i>
+                    </div>
+        </div>
+    </nav>
+
+    <!-- ended top-nav  -->
+
+
+
+
+    <!-- Started left-navbar  -->
+
+    <section class="left-menu">
+        <i class='bx bx-x'></i>
         <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Reservati</a></li>
+            <li><a href="#">menu</a></li>
             <li><a href="#">Gallery</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#">about</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
+        <button>Reservation</button>
 
         <div>
-            <i class='bx bx-infinite'></i>
-            <i class='bx bxl-facebook' ></i>
-            <i class='bx bxl-twitter' ></i>
-            <i class='bx bx-menu' ></i>
+            <h3>GALLERY</h3>
         </div>
-    </nav>
+       
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- Started slider  -->
+
+    <!-- <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide my-slide">
+            <h2>Welcome to </h2>
+            <h1>POTO PALCE</h1>
+            <button>LOOK MENU</button>
+        </div>
+          <div class="swiper-slide my-slide">
+            <h2>Welcome to </h2>
+            <h1>POTO PALCE</h1>
+            <button>LOOK MENU</button>
+          </div>
+          <div class="swiper-slide my-slide">
+            <h2>Welcome to </h2>
+            <h1>POTO PALCE</h1>
+            <button>LOOK MENU</button>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+ -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS files links -->
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });
+</script>
+
+
 </body>
 </html>
