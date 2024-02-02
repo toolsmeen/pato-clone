@@ -18,7 +18,7 @@
 /* started TopNav  */
 nav
 {
-  position: relative;
+
   background-color: red;
 
 }
@@ -38,7 +38,7 @@ nav>div ul
     align-items: center;
     gap: 3rem;
     text-transform: uppercase;
-    /* margin-right: 120px; */
+    margin-right: 120px;
     
 }
 nav>div ul li a
@@ -90,22 +90,30 @@ nav>div div #menu
 /* started left-menu  */
 .left-menu
 {
-    max-width: 350px;
-    height: auto;
+    width: 350px;
+    /* min-height: auto; */
     background-color: blueviolet;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 80px 3%;
-    position: relative;
+    padding: 100px 3%;
+    position: fixed;
+    right: -350px;
+    transition: .5s;
+    /* overflow-y: scroll; */
+}
+.kk
+{
+    right: 0;
 }
 .left-menu i
 {
     position: absolute;
-    top: 0;
-    right: 10px;
+    top: 30px;
+    right: 30px;
     font-size: 3rem;
+    cursor: pointer;
 }
 .left-menu ul
 {
@@ -117,6 +125,11 @@ nav>div div #menu
 .left-menu ul li a
 {
     color: #fff;
+    transition: .5s;
+}
+.left-menu ul li:hover a
+{
+    color: #ec1d25;
 }
 
 .left-menu button
@@ -132,6 +145,11 @@ nav>div div #menu
     color: #fff;
     margin: 2rem 0px;
     text-transform: uppercase;
+    transition: .5s;
+}
+.left-menu button:hover
+{
+    background-color: #ec1d25;
 }
 
 
